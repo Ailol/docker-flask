@@ -10,9 +10,6 @@ COPY . /app
 # Installing requirements.txt in the new /app folder
 RUN pip3 --no-cache-dir install -r requirements.txt
 
-# Open up port 5000 for external connections 
-# EXPOSE 5000
-
 ENTRYPOINT ["python3"]
 
 CMD ["app.py"]
