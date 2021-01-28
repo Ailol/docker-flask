@@ -3,17 +3,17 @@
 Simple docker-flask cheatsheet.
 
 ## Create docker image
-```    
-    docker build -t docker-flask .
+```bash    
+docker build -t docker-flask .
 ```
 
 ## Run docker image
-```  
-   docker run -it -d -p 5000:5000 docker-flask
+```bash
+docker run -it -d -p 5000:5000 docker-flask
 ```
 
 ## Stop docker image
-```
+```bash
 docker ps
 docker stop CONTAINER_ID
 ```
